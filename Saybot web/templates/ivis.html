@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<center>
+  <title>Give inputs</title>
+    <form method="post" action="/" enctype="multipart/form-data" style=" display: block; justify-content: center; align-items: center; font: 1rem sans-serif;">
+      
+      <input type="text" name="btn_name" placeholder="Button Name" required><br><br>
+        <input type="file" name="files[]" multiple="true"  onchange="document.getElementById('upload').click()" required style="padding-left: 80px;"/>
+        <input id="upload" type="submit" value="Upload" style="display: none;" />
+      </center>
+    </form>
